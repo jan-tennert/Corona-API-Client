@@ -4,7 +4,7 @@
 
 - JDK 11 or higher
 - [OkHttp](https://square.github.io/okhttp/) (tested with 4.10.0-RC1)
-- [JSON](https://mvnrepository.com/artifact/org.json/json) (test with 20201115)
+- [JSON](https://mvnrepository.com/artifact/org.json/json) (tested with 20201115)
 
 # Installation
 
