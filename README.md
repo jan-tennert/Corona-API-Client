@@ -41,3 +41,7 @@ System.out.println(germany.getNewDeathsForToday().getCases());
 
 List<CoronaCountry> countries = client.findCountry("d");
 ```
+
+# More Information
+
+If you found a bug or you have an idea, please create a new issue: [Click here](https://github.com/jan-tennert/Corona-API-Client/issues)
