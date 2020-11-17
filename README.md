@@ -27,3 +27,17 @@
 </dependency>
 ```
 ##### JAR Download: [Click Here](https://github.com/jan-tennert/Corona-API-Client/releases)
+
+# Examples
+
+```java
+CoronaAPIClient client = new CoronaAPIClient();
+
+System.out.println(client.getWorldWideStats().getTotalConfirmed());
+
+CoronaCountry germany = client.getCountry("DE");
+System.out.println(germany.getTotalConfirmed());
+System.out.println(germany.getNewDeathsForToday());
+
+List<CoronaCountry> countries = client.findCountry("d");
+```
