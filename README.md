@@ -33,11 +33,11 @@
 ```java
 CoronaAPIClient client = new CoronaAPIClient();
 
-System.out.println(client.getWorldWideStats().getTotalConfirmed());
+System.out.println(client.getWorldWideStats().getTotalConfirmed().getCases());
 
 CoronaCountry germany = client.getCountry("DE");
-System.out.println(germany.getTotalConfirmed());
-System.out.println(germany.getNewDeathsForToday());
+System.out.println(germany.getTotalConfirmed().getCases());
+System.out.println(germany.getNewDeathsForToday().getCases());
 
 List<CoronaCountry> countries = client.findCountry("d");
 ```
