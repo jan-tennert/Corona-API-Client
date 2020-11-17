@@ -1,4 +1,4 @@
-# Corona-API-Client
+# Corona-API-Client by Jan
 
 # Requirements
 
